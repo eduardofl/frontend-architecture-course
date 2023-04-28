@@ -1,10 +1,17 @@
 {
+  "name": "eduardofl",
+  "version": "1.0.0",
+  "license": "MIT",
   "private": true,
-  "workspaces":{
+  "workspaces": {
     "packages": [
       "packages/*",
       "projects/*",
       "setup/*"
     ]
+  },
+  "scripts": {
+    "web-public": "yarn workspace @eduardofl/web-public",
+    "dev:web-public": "yarn web-public dev"
   }
 }
