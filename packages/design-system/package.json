@@ -1,8 +1,11 @@
 {
-  "name": "@eduardofl/utils",
+  "name": "@eduardofl/design-system",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "dependencies": {
+    "styled-components": "^5.3.10"
+  },
   "devDependencies": {
     "@eduardofl/tsconfig-commons": "*"
   }

@@ -10,8 +10,16 @@
       "setup/*"
     ]
   },
+  "devDependencies": {
+    "@types/node": "18.16.2",
+    "@types/react": "18.2.0",
+    "typescript": "5.0.4"
+  },
   "scripts": {
     "web-public": "yarn workspace @eduardofl/web-public",
-    "dev:web-public": "yarn web-public dev"
+    "dev:web-public": "yarn web-public dev",
+    "build:web-public": "yarn web-public build",
+    "start:web-public": "yarn web-public start",
+    "design-system": "yarn workspace @eduardofl/design-system"
   }
 }
