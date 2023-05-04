@@ -27,6 +27,7 @@
     "start:web-public": "yarn web-public start",
     "lint:web-public": "yarn web-public lint",
     "design-system": "yarn workspace @eduardofl/design-system",
+    "test:design-system": "yarn design-system test",
     "utils": "yarn workspace @eduardofl/utils",
     "test:utils": "yarn utils test"
   }

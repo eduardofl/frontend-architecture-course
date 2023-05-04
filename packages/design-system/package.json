@@ -7,10 +7,12 @@
     "styled-components": "^5.3.10"
   },
   "devDependencies": {
+    "@eduardofl/test-commons": "*",
     "@eduardofl/tsconfig-commons": "*",
     "@eduardofl/eslint-commons": "*"
   },
   "scripts": {
+    "test": "jest",
     "lint": "eslint \"./**/*.{ts,tsx,js,jsx}\""
   }
 }
