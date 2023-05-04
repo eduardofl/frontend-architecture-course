@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.26",
+    "@types/jest": "^29.5.1",
     "@types/node": "^18.16.2",
     "@types/react": "^18.2.0",
     "eslint": "^8.39.0",
@@ -25,6 +26,8 @@
     "build:web-public": "yarn web-public build",
     "start:web-public": "yarn web-public start",
     "lint:web-public": "yarn web-public lint",
-    "design-system": "yarn workspace @eduardofl/design-system"
+    "design-system": "yarn workspace @eduardofl/design-system",
+    "utils": "yarn workspace @eduardofl/utils",
+    "test:utils": "yarn utils test"
   }
 }
