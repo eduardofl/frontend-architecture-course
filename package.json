@@ -11,16 +11,20 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "5.1.26",
-    "@types/node": "18.16.2",
-    "@types/react": "18.2.0",
-    "typescript": "5.0.4"
+    "@types/styled-components": "^5.1.26",
+    "@types/node": "^18.16.2",
+    "@types/react": "^18.2.0",
+    "eslint": "^8.39.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
   },
   "scripts": {
+    "lint": "yarn workspaces run lint",
     "web-public": "yarn workspace @eduardofl/web-public",
     "dev:web-public": "yarn web-public dev",
     "build:web-public": "yarn web-public build",
     "start:web-public": "yarn web-public start",
+    "lint:web-public": "yarn web-public lint",
     "design-system": "yarn workspace @eduardofl/design-system"
   }
 }

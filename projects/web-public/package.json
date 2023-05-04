@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint \"./**/*.{ts,tsx,js,jsx}\""
   },
   "dependencies": {
     "@eduardofl/design-system": "*",
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "@eduardofl/tsconfig-commons": "*",
+    "@eduardofl/eslint-commons": "*",
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^10.0.0"
   }

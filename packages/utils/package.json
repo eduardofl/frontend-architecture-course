@@ -4,6 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@eduardofl/tsconfig-commons": "*"
+    "@eduardofl/tsconfig-commons": "*",
+    "@eduardofl/eslint-commons": "*"
+  },
+  "scripts": {
+    "lint": "eslint \"./**/*.{ts,tsx,js,jsx}\""
   }
 }
