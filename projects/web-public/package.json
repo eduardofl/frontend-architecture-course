@@ -7,6 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "jest",
     "lint": "eslint \"./**/*.{ts,tsx,js,jsx}\""
   },
   "dependencies": {
@@ -18,8 +19,9 @@
     "styled-components": "^5.3.10"
   },
   "devDependencies": {
-    "@eduardofl/tsconfig-commons": "*",
     "@eduardofl/eslint-commons": "*",
+    "@eduardofl/test-commons": "*",
+    "@eduardofl/tsconfig-commons": "*",
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^10.0.0"
   }
